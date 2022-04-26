@@ -9,34 +9,47 @@ const SignUp: NextPage = () => {
     <div
       style={{
         height: "100vh",
-        width: "40%",
         display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
       }}
     >
-      <Title>Criar uma conta</Title>
-      <Form layout="vertical">
-        <Form.Item label="Email">
-          <Input placeholder="Email" />
-        </Form.Item>
-        <Form.Item label="Senha">
-          <Input.Password type="password" placeholder="Senha" />
-        </Form.Item>
-        <Form.Item>
-          <Button
-            type="primary"
-            htmlType="submit"
-            style={{
-              width: "100%",
-            }}
-          >
-            Criar
-          </Button>
-        </Form.Item>
-      </Form>
-      <Link href="/auth/signin">Já tem uma conta? Entre por aqui.</Link>
+      <div
+        style={{
+          height: "100vh",
+          width: "40%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <Title>Criar uma conta</Title>
+        <Form layout="vertical">
+          <Form.Item label="Email">
+            <Input placeholder="Email" />
+          </Form.Item>
+          <Form.Item label="Senha">
+            <Input.Password type="password" placeholder="Senha" />
+          </Form.Item>
+          <Form.Item>
+            <Button
+              type="primary"
+              htmlType="submit"
+              style={{
+                width: "100%",
+              }}
+            >
+              Criar
+            </Button>
+          </Form.Item>
+        </Form>
+        <Link href="/auth/signin">Já tem uma conta? Entre por aqui.</Link>
+      </div>
+      <div
+        style={{
+          width: "60%",
+          backgroundColor: "#697BFF",
+        }}
+      ></div>
     </div>
   );
 };
