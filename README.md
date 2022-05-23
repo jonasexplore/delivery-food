@@ -7,6 +7,6 @@ Project to simulate a delivery food website.
 
 ### Goals
 
-- [ ] Create card component
-- [ ] Create slide component
-- [ ] Create header component
+- [x] Create card component
+- [x] Create slide component
+- [x] Create header component
