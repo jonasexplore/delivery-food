@@ -15,7 +15,7 @@ export const ProductCard = ({
 }: Props) => (
   <Card
     hoverable
-    style={{ width: 300, borderRadius: 16, marginRight: 16, marginTop: 16 }}
+    style={{ borderRadius: 16, marginRight: 16, marginTop: 16 }}
     cover={
       <Image
         width={350}
